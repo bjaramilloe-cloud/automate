@@ -15,7 +15,7 @@ jobs:
         users: actions/checkout@v3
 
       - name: Configurar Python
-        users: actions/setup python@v4
+        users: actions/setup-python@v4
         with:
           python-version: '3.10'
 
